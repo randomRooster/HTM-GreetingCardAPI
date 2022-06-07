@@ -32,7 +32,7 @@ Comments:
 ## Write Profile
 Description: Overwrites the user's profile in it's entirity.
 
-URL: `POST /api/0/profile/:id`
+URL: `PUT /api/0/profile/:id`
 
 URL Parameters:  
  - id: the unique identifier supplied for the users profile. Supplied by badge / QR code
@@ -63,7 +63,7 @@ Comments:
  ## Provision new profile
  Description: Creates a new instance of a profile with dummy values to be over-written by a participant
 
- URL: `PUT /api/0/profile/:id`
+ URL: `POST /api/0/profile/:id`
 
  URL Parameters:
   - id: the unique identifier stored on the badge / QR code
