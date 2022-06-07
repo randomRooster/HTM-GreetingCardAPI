@@ -15,9 +15,9 @@ Example request: `GET /api/0/profile/4a5579adb561d860`
 Return:
 ```JSON
 {
-    'name': "Lorem Ipsum",
-    'bio' : "I am a teapot short and stout",
-    'git': "https://www.github.com/LoremIpsum"
+    "name": "Lorem Ipsum",
+    "bio" : "I am a teapot short and stout",
+    "git": "https://www.github.com/LoremIpsum"
 }
 ```
 Error:  
@@ -42,9 +42,9 @@ Auth: None
 Example request:
 ```JSON
 {
-    'name': "Animi minus",
-    'bio': "btw Muirhead is the best building on UoB Campus",
-    'git': "https://www.github.com/Animagus"
+    "name": "Animi minus",
+    "bio": "btw Muirhead is the best building on UoB Campus",
+    "git": "https://www.github.com/Animagus"
 }
 ```
 Return: `200 OK`
@@ -73,7 +73,7 @@ Auth: A secret passed in the body of the request
 Example request:
 ```JSON
 {
-    'auth': "3282c8027771f72b2def2520135daae5"
+    "auth": "3282c8027771f72b2def2520135daae5"
 }
 ```
 Return: 201 Created
@@ -99,7 +99,7 @@ Auth: A secret passed in the body of the request
 Example request:
 ```JSON
 {
-    'auth': "3282c8027771f72b2def2520135daae5"
+    "auth": "3282c8027771f72b2def2520135daae5"
 }
 ```
 
